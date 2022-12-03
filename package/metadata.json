@@ -63,7 +63,7 @@
         "Description[zh_CN]": "shows how much time is left until new year/christmas",
         "EnabledByDefault": true,
         "Icon": "applications-system",
-        "Id": "com.github.stepan-zubkov.days_to_new_year",
+        "Id": "com.github.stepan-zubkov.days-to-new-year",
         "License": "MIT",
         "Name": "Days to new year",
         "Name[az]": "Days to new year",

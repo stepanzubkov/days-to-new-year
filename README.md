@@ -7,7 +7,7 @@ Widget shows time until:
 1. New Year
 2. Catolic/Orthodox сhristmas
 
-![Screenshot_20221203_173001](https://user-images.githubusercontent.com/83695097/205447331-30909103-e0f8-4842-b043-dfdb65fd8624.png)
+![Screenshot_20221203_185245](https://user-images.githubusercontent.com/83695097/205449752-13006699-53ee-4391-881c-5721103f87ad.png)
 
 ![Screenshot_20221203_173034](https://user-images.githubusercontent.com/83695097/205447335-04bab2f4-fc5c-4d22-acec-67d778f27939.png)
 

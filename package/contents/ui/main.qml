@@ -10,6 +10,11 @@ Item {
 
     Plasmoid.backgroundHints: PlasmaCore.Types.ShadowBackground | PlasmaCore.Types.ConfigurableBackground
 
+    FontLoader {
+        id: fontPoppins
+        source: "../fonts/Poppins.ttf"
+    }
+
     Plasmoid.fullRepresentation: ColumnLayout {
         anchors.fill: parent
         PlasmaComponents.Label {
@@ -19,6 +24,7 @@ Item {
             visible: plasmoid.configuration.showNewYearText
             text: Calc.formatTimeToNewYear()
             font.pointSize: plasmoid.configuration.newYearTextSize
+            font.family: fontPoppins.name
         }
         PlasmaComponents.Label {
             id: catolicChristmasText
@@ -27,6 +33,7 @@ Item {
             visible: plasmoid.configuration.showCatolicChristmasText
             text: Calc.formatTimeToCatolicChristmas()
             font.pointSize: plasmoid.configuration.catolicChristmasTextSize
+            font.family: fontPoppins.name
         }
 
         PlasmaComponents.Label {
@@ -36,6 +43,7 @@ Item {
             visible: plasmoid.configuration.showOrthodoxChristmasText
             text: Calc.formatTimeToOrthodoxChristmas()
             font.pointSize: plasmoid.configuration.orthodoxChristmasTextSize
+            font.family: fontPoppins.name
         }
         Timer {
             interval: 60000

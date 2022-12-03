@@ -10,25 +10,46 @@ Item {
 
     Plasmoid.backgroundHints: PlasmaCore.Types.ShadowBackground | PlasmaCore.Types.ConfigurableBackground
 
-    Timer {
-        interval: 60000
-        running: newYearText.visible
-        repeat: true
-        onTriggered {
-            newYearText.text = Calc.formatTimeToNewYear();
-        }
-    }
-
     Plasmoid.fullRepresentation: ColumnLayout {
         anchors.fill: parent
         PlasmaComponents.Label {
             id: newYearText
 
+            Layout.alignment: Text.AlignHCenter
             visible: plasmoid.configuration.showNewYearText
             text: Calc.formatTimeToNewYear()
             font.pointSize: plasmoid.configuration.newYearTextSize
         }
+        PlasmaComponents.Label {
+            id: catolicChristmasText
+
+            Layout.alignment: Text.AlignHCenter
+            visible: plasmoid.configuration.showCatolicChristmasText
+            text: Calc.formatTimeToCatolicChristmas()
+            font.pointSize: plasmoid.configuration.catolicChristmasTextSize
+        }
+
+        PlasmaComponents.Label {
+            id: orthodoxChristmasText
+
+            Layout.alignment: Text.AlignHCenter
+            visible: plasmoid.configuration.showOrthodoxChristmasText
+            text: Calc.formatTimeToOrthodoxChristmas()
+            font.pointSize: plasmoid.configuration.orthodoxChristmasTextSize
+        }
+        Timer {
+            interval: 60000
+            running: true
+            repeat: true
+            onTriggered: {
+                newYearText.text = Calc.formatTimeToNewYear();
+                catolicChristmasText.text = Calc.formatTimeToCatolicChristmas();
+                orthodoxChristmasText.text = Calc.formatTimeToOrthodoxChristmas();
+            }
+        }
     }
 
     Plasmoid.preferredRepresentation: Plasmoid.fullRepresentation
+
+
 }

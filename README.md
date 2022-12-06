@@ -15,7 +15,7 @@ Now only full representation exists.
 
 ## Installation
 
-Download it from [pling (kde store)](add link)
+Download it from [pling (kde store)](https://www.pling.com/p/1949201/)
 
 ## Contribution
 

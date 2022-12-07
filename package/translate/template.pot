@@ -1,0 +1,91 @@
+# Translation of days-to-new-year in LANGUAGE
+# Copyright (C) 2022
+# This file is distributed under the same license as the days-to-new-year package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: days-to-new-year\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 22:11+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../metadata.desktop
+msgid "Days to new year"
+msgstr ""
+
+#: ../metadata.desktop
+msgid "shows how much time is left until new year/christmas"
+msgstr ""
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgctxt "Days until event"
+msgid "one day"
+msgid_plural "%1 days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../contents/ui/calc.js
+msgctxt "Hours until event"
+msgid "one hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../contents/ui/calc.js
+msgctxt "%1 - Event (New Year, Christmas)"
+msgid "until %1"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "New Year"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "Catolic Christmas"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "Orthodox Christmas"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Show text about New Year:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "New Year font size:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgctxt "Font size (points)"
+msgid " pt"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Show text about Catolic Christmas:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Catolic Christmas font size:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Show text about Orthodox Christmas:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Orthodox Christmas font size:"
+msgstr ""

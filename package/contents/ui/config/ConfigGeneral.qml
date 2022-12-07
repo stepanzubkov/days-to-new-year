@@ -34,7 +34,8 @@ Item {
             minimumValue: 10
             maximumValue: 72
             stepSize: 1
-            suffix: " pt"
+            suffix: i18nc("Font size (points)", " pt")
+
         }
         PlasmaComponents.CheckBox {
             id: showCatolicChristmasText
@@ -51,7 +52,7 @@ Item {
             minimumValue: 10
             maximumValue: 72
             stepSize: 1
-            suffix: " pt"
+            suffix: i18nc("Font size (points)", " pt")
         }
         PlasmaComponents.CheckBox {
             id: showOrthodoxChristmasText
@@ -68,7 +69,7 @@ Item {
             minimumValue: 10
             maximumValue: 72
             stepSize: 1
-            suffix: " pt"
+            suffix: i18nc("Font size (points)", " pt")
         }
 
     }

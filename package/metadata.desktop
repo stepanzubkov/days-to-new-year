@@ -1,0 +1,23 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Days to new year
+Comment=shows how much time is left until new year/christmas
+Icon=applications-system
+Type=Service
+
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Stepan Zubkov
+X-KDE-PluginInfo-Email=zubkovbackend@gmail.com
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-Name=com.github.stepan-zubkov.days-to-new-year
+X-KDE-PluginInfo-Version=1.0.1
+X-KDE-PluginInfo-Website=
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-RemoteLocation=
+X-KDE-PluginInfo-Category=Date and Time
+
+
+Name[ru]=Дни до нового года
+Comment[ru]=показывает, сколько времени осталось до нового года/рождества

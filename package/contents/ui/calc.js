@@ -10,23 +10,33 @@ function _formatTimeBetweenDates(firstDate, secondDate, eventName) {
 
     var hours = Math.floor(seconds / 3600);
 
-    return `${days} ${days == 1 ? "day" : "days"} ${hours} ${hours == 1 ? "hour" : "hours"} until ${eventName}`;
+    var formattedString = "";
+    if (days > 0) {
+        formattedString += i18ncp("Days until event", "one day", "%1 days", days) + " ";
+    } if (hours > 0) {
+        formattedString += i18ncp("Hours until event", "one hour", "%1 hours", hours) + " ";
+    } else {
+        formattedString += i18ncp("Happy New Year!");
+    }
+    formattedString += i18nc("%1 - Event (New Year, Christmas)", "until %1", eventName);
+   
+    return formattedString;
 }
 
 function formatTimeToNewYear() {
     var now = new Date();
     var new_year = new Date(now.getFullYear(), 11, 31, 23, 59, 59);
-    return _formatTimeBetweenDates(new_year, now, "New Year");
+    return _formatTimeBetweenDates(new_year, now, i18n("New Year"));
 }
 
 function formatTimeToCatolicChristmas() {
     var now = new Date();
     var new_year = new Date(now.getFullYear(), 11, 24, 23, 59, 59);
-    return _formatTimeBetweenDates(new_year, now, "Catolic Christmas");
+    return _formatTimeBetweenDates(new_year, now, i18n("Catolic Christmas"));
 }
 
 function formatTimeToOrthodoxChristmas() {
     var now = new Date();
     var new_year = new Date(now.getFullYear()+1, 0, 6, 23, 59, 59);
-    return _formatTimeBetweenDates(new_year, now, "Orthodox Christmas");
+    return _formatTimeBetweenDates(new_year, now, i18n("Orthodox Christmas"));
 }

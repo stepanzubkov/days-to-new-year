@@ -1,4 +1,4 @@
-# Translation of days-to-new-year in LANGUAGE
+# Translation of days-to-new-year in nl
 # Copyright (C) 2022
 # This file is distributed under the same license as the days-to-new-year package.
 #

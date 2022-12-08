@@ -10,7 +10,7 @@ X-KDE-PluginInfo-Author=Stepan Zubkov
 X-KDE-PluginInfo-Email=zubkovbackend@gmail.com
 X-KDE-PluginInfo-License=MIT
 X-KDE-PluginInfo-Name=com.github.stepan-zubkov.days-to-new-year
-X-KDE-PluginInfo-Version=1.0.1
+X-KDE-PluginInfo-Version=1.1.0
 X-KDE-PluginInfo-Website=
 X-KDE-ServiceTypes=Plasma/Applet
 X-Plasma-API=declarativeappletscript
@@ -19,5 +19,7 @@ X-Plasma-RemoteLocation=
 X-KDE-PluginInfo-Category=Date and Time
 
 
+Name[nl]=Aftellen naar Nieuwjaar
 Name[ru]=Дни до нового года
-Comment[ru]=показывает, сколько времени осталось до нового года/рождества
+Comment[nl]=Toont het aantal dagen en uren tot Nieuwjaar en Kerstmis
+Comment[ru]=Показывает, сколько времени осталось до Нового Года/Рождества

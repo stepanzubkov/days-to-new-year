@@ -1,0 +1,91 @@
+# Translation of days-to-new-year in LANGUAGE
+# Copyright (C) 2022
+# This file is distributed under the same license as the days-to-new-year package.
+#
+# Heimen Stoffels <vistausss@fastmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: days-to-new-year\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 22:11+0300\n"
+"PO-Revision-Date: 2022-12-07 20:33+0100\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.11.90\n"
+
+#: ../metadata.desktop
+msgid "Days to new year"
+msgstr "Aftellen naar Nieuwjaar"
+
+#: ../metadata.desktop
+msgid "shows how much time is left until new year/christmas"
+msgstr "Toont het aantal dagen en uren tot Nieuwjaar en Kerstmis"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "Algemeen"
+
+#: ../contents/ui/calc.js
+msgctxt "Days until event"
+msgid "one day"
+msgid_plural "%1 days"
+msgstr[0] "één dag"
+msgstr[1] "%1 dagen"
+
+#: ../contents/ui/calc.js
+msgctxt "Hours until event"
+msgid "one hour"
+msgid_plural "%1 hours"
+msgstr[0] "één uur"
+msgstr[1] "%1 uur"
+
+#: ../contents/ui/calc.js
+msgctxt "%1 - Event (New Year, Christmas)"
+msgid "until %1"
+msgstr "tot aan %1"
+
+#: ../contents/ui/calc.js
+msgid "New Year"
+msgstr "Nieuwjaar"
+
+#: ../contents/ui/calc.js
+msgid "Catolic Christmas"
+msgstr "Eerste kerstdag"
+
+#: ../contents/ui/calc.js
+msgid "Orthodox Christmas"
+msgstr "Orthodox kerstfeest"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Show text about New Year:"
+msgstr "Nieuwjaar tonen:"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "New Year font size:"
+msgstr "Tekstgrootte:"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgctxt "Font size (points)"
+msgid " pt"
+msgstr " pt"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Show text about Catolic Christmas:"
+msgstr "Eerste kerstdag tonen:"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Catolic Christmas font size:"
+msgstr "Tekstgrootte:"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Show text about Orthodox Christmas:"
+msgstr "Orthodox kerstfeest tonen:"
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Orthodox Christmas font size:"
+msgstr "Tekstgrootte:"

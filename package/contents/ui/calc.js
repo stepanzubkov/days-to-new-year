@@ -31,12 +31,16 @@ function formatTimeToNewYear() {
 
 function formatTimeToCatolicChristmas() {
     var now = new Date();
-    var new_year = new Date(now.getFullYear(), 11, 24, 23, 59, 59);
-    return _formatTimeBetweenDates(new_year, now, i18n("Catolic Christmas"));
+    var christmas = new Date(now.getFullYear(), 11, 24, 23, 59, 59);
+    if (christmas < now)
+        christmas.setFullYear(now.getFullYear()+1)
+    return _formatTimeBetweenDates(christmas, now, i18n("Catolic Christmas"));
 }
 
 function formatTimeToOrthodoxChristmas() {
     var now = new Date();
-    var new_year = new Date(now.getFullYear()+1, 0, 6, 23, 59, 59);
-    return _formatTimeBetweenDates(new_year, now, i18n("Orthodox Christmas"));
+    var christmas = new Date(now.getFullYear(), 0, 6, 23, 59, 59);
+    if (christmas < now)
+        christmas.setFullYear(now.getFullYear()+1)
+    return _formatTimeBetweenDates(christmas, now, i18n("Orthodox Christmas"));
 }

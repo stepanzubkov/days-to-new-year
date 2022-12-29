@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: days-to-new-year\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-29 18:32+0300\n"
+"POT-Creation-Date: 2022-12-29 18:57+0300\n"
 "PO-Revision-Date: 2022-12-08 12:27+0300\n"
 "Last-Translator: stepan <zubkovbackend@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -55,31 +55,34 @@ msgid "until %1"
 msgstr "до %1"
 
 #: ../contents/ui/calc.js
+msgctxt "in form `until New Year`"
 msgid "New Year"
-msgstr "Нового Года"
+msgstr "Нового года"
 
 #: ../contents/ui/calc.js
 msgid "Happy New Year!"
-msgstr ""
+msgstr "Счастливого Нового Года!"
 
 #: ../contents/ui/calc.js
+msgctxt "in form `until Gregorian Christmas`"
 msgid "Gregorian Christmas"
-msgstr ""
+msgstr "Григорианского рождества"
 
 #: ../contents/ui/calc.js
 msgid "Merry Christmas!"
-msgstr ""
+msgstr "Счастливого Рождества!"
 
 #: ../contents/ui/calc.js
+msgctxt "in form `until Julian Christmas`"
 msgid "Julian Christmas"
-msgstr ""
+msgstr "Юлианского Рождества"
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about New Year:"
-msgstr "Текст про Новый Год:"
+msgid "New Year:"
+msgstr "Новый год:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "New Year font size:"
+msgid "Font size:"
 msgstr "Размер текста:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
@@ -88,20 +91,39 @@ msgid " pt"
 msgstr " pt"
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Gregorian Christmas:"
-msgstr ""
+msgid "Gregorian Christmas:"
+msgstr "Григорианское Рождество:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Gregorian Christmas font size:"
-msgstr ""
+msgid "Julian Christmas:"
+msgstr "Юлианское Рождество:"
 
-#: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Julian Christmas:"
-msgstr ""
+#~ msgid "New Year"
+#~ msgstr "Нового Года"
 
-#: ../contents/ui/config/ConfigGeneral.qml
-msgid "Julian Christmas font size:"
-msgstr ""
+#~ msgid "Gregorian Christmas"
+#~ msgstr "Григорианское Рождество"
+
+#~ msgid "Julian Christmas"
+#~ msgstr "Юлианское рождество"
+
+#~ msgid "Show text about New Year:"
+#~ msgstr "Текст про Новый Год:"
+
+#~ msgid "New Year font size:"
+#~ msgstr "Размер текста:"
+
+#~ msgid "Show text about Gregorian Christmas:"
+#~ msgstr "Григорианское Рождество:"
+
+#~ msgid "Gregorian Christmas font size:"
+#~ msgstr "Размер текста:"
+
+#~ msgid "Show text about Julian Christmas:"
+#~ msgstr "Юлианское Рождество:"
+
+#~ msgid "Julian Christmas font size:"
+#~ msgstr "Размер текста:"
 
 #~ msgid "Catolic Christmas"
 #~ msgstr "Католического Рождества"

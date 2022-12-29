@@ -22,13 +22,13 @@ Item {
         PlasmaComponents.CheckBox {
             id: showNewYearText
 
-            Kirigami.FormData.label: i18n("Show text about New Year:")
+            Kirigami.FormData.label: i18n("New Year:")
             checked: true
         }
         SpinBox {
             id: newYearTextSize
             
-            Kirigami.FormData.label: i18n("New Year font size:")
+            Kirigami.FormData.label: i18n("Font size:")
             enabled: showNewYearText.checked
             value: 16
             minimumValue: 10
@@ -40,13 +40,13 @@ Item {
         PlasmaComponents.CheckBox {
             id: showGregorianChristmasText
 
-            Kirigami.FormData.label: i18n("Show text about Gregorian Christmas:")
+            Kirigami.FormData.label: i18n("Gregorian Christmas:")
             checked: false
         }
         SpinBox {
             id: gregorianChristmasTextSize
             
-            Kirigami.FormData.label: i18n("Gregorian Christmas font size:")
+            Kirigami.FormData.label: i18n("Font size:")
             enabled: showGregorianChristmasText.checked
             value: 16
             minimumValue: 10
@@ -57,13 +57,13 @@ Item {
         PlasmaComponents.CheckBox {
             id: showJulianChristmasText
 
-            Kirigami.FormData.label: i18n("Show text about Julian Christmas:")
+            Kirigami.FormData.label: i18n("Julian Christmas:")
             checked: false
         }
         SpinBox {
             id: julianChristmasTextSize
             
-            Kirigami.FormData.label: i18n("Julian Christmas font size:")
+            Kirigami.FormData.label: i18n("Font size:")
             enabled: showJulianChristmasText.checked
             value: 16
             minimumValue: 10

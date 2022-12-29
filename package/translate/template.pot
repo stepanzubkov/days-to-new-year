@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: days-to-new-year\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-29 18:32+0300\n"
+"POT-Creation-Date: 2022-12-29 18:57+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,7 @@ msgid "until %1"
 msgstr ""
 
 #: ../contents/ui/calc.js
+msgctxt "in form `until New Year`"
 msgid "New Year"
 msgstr ""
 
@@ -58,6 +59,7 @@ msgid "Happy New Year!"
 msgstr ""
 
 #: ../contents/ui/calc.js
+msgctxt "in form `until Gregorian Christmas`"
 msgid "Gregorian Christmas"
 msgstr ""
 
@@ -66,15 +68,16 @@ msgid "Merry Christmas!"
 msgstr ""
 
 #: ../contents/ui/calc.js
+msgctxt "in form `until Julian Christmas`"
 msgid "Julian Christmas"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about New Year:"
+msgid "New Year:"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "New Year font size:"
+msgid "Font size:"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
@@ -83,17 +86,9 @@ msgid " pt"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Gregorian Christmas:"
+msgid "Gregorian Christmas:"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Gregorian Christmas font size:"
-msgstr ""
-
-#: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Julian Christmas:"
-msgstr ""
-
-#: ../contents/ui/config/ConfigGeneral.qml
-msgid "Julian Christmas font size:"
+msgid "Julian Christmas:"
 msgstr ""

@@ -11,10 +11,10 @@ Item {
 
     property alias cfg_showNewYearText: showNewYearText.checked
     property alias cfg_newYearTextSize: newYearTextSize.value
-    property alias cfg_showCatolicChristmasText: showCatolicChristmasText.checked
-    property alias cfg_catolicChristmasTextSize: catolicChristmasTextSize.value
-    property alias cfg_showOrthodoxChristmasText: showOrthodoxChristmasText.checked
-    property alias cfg_orthodoxChristmasTextSize: orthodoxChristmasTextSize.value
+    property alias cfg_showGregorianChristmasText: showGregorianChristmasText.checked
+    property alias cfg_gregorianChristmasTextSize: gregorianChristmasTextSize.value
+    property alias cfg_showJulianChristmasText: showJulianChristmasText.checked
+    property alias cfg_julianChristmasTextSize: julianChristmasTextSize.value
 
     
     Kirigami.FormLayout { 
@@ -38,16 +38,16 @@ Item {
 
         }
         PlasmaComponents.CheckBox {
-            id: showCatolicChristmasText
+            id: showGregorianChristmasText
 
-            Kirigami.FormData.label: i18n("Show text about Catolic Christmas:")
+            Kirigami.FormData.label: i18n("Show text about Gregorian Christmas:")
             checked: false
         }
         SpinBox {
-            id: catolicChristmasTextSize
+            id: gregorianChristmasTextSize
             
-            Kirigami.FormData.label: i18n("Catolic Christmas font size:")
-            enabled: showCatolicChristmasText.checked
+            Kirigami.FormData.label: i18n("Gregorian Christmas font size:")
+            enabled: showGregorianChristmasText.checked
             value: 16
             minimumValue: 10
             maximumValue: 72
@@ -55,16 +55,16 @@ Item {
             suffix: i18nc("Font size (points)", " pt")
         }
         PlasmaComponents.CheckBox {
-            id: showOrthodoxChristmasText
+            id: showJulianChristmasText
 
-            Kirigami.FormData.label: i18n("Show text about Orthodox Christmas:")
+            Kirigami.FormData.label: i18n("Show text about Julian Christmas:")
             checked: false
         }
         SpinBox {
-            id: orthodoxChristmasTextSize
+            id: julianChristmasTextSize
             
-            Kirigami.FormData.label: i18n("Orthodox Christmas font size:")
-            enabled: showOrthodoxChristmasText.checked
+            Kirigami.FormData.label: i18n("Julian Christmas font size:")
+            enabled: showJulianChristmasText.checked
             value: 16
             minimumValue: 10
             maximumValue: 72

@@ -14,20 +14,20 @@
       <label>New year text size in puncts (pt)</label>
       <default>16</default>
     </entry>
-    <entry name="showCatolicChristmasText" type="Bool">
-      <label>Flag to show text about catolic christmas</label>
+    <entry name="showGregorianChristmasText" type="Bool">
+      <label>Flag to show text about gregorian christmas</label>
       <default>false</default>
     </entry>
-    <entry name="catolicChristmasTextSize" type="Int">
-      <label>Catolic christmas text size in puncts (pt)</label>
+    <entry name="gregorianChristmasTextSize" type="Int">
+      <label>Gregorian christmas text size in puncts (pt)</label>
       <default>16</default>
     </entry>
-    <entry name="showOrthodoxChristmasText" type="Bool">
-      <label>Flag to show text about orthodox christmas</label>
+    <entry name="showJulianChristmasText" type="Bool">
+      <label>Flag to show text about julian christmas</label>
       <default>false</default>
     </entry>
-    <entry name="orthodoxChristmasTextSize" type="Int">
-      <label>Orthodox christmas text size in puncts (pt)</label>
+    <entry name="julianChristmasTextSize" type="Int">
+      <label>Julian christmas text size in puncts (pt)</label>
       <default>16</default>
     </entry>
 

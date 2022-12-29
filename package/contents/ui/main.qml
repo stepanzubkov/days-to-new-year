@@ -27,22 +27,22 @@ Item {
             font.family: fontPoppins.name
         }
         PlasmaComponents.Label {
-            id: catolicChristmasText
+            id: gregorianChristmasText
 
             Layout.alignment: Text.AlignHCenter
-            visible: plasmoid.configuration.showCatolicChristmasText
-            text: Calc.formatTimeToCatolicChristmas()
-            font.pointSize: plasmoid.configuration.catolicChristmasTextSize
+            visible: plasmoid.configuration.showGregorianChristmasText
+            text: Calc.formatTimeToGregorianChristmas()
+            font.pointSize: plasmoid.configuration.gregorianChristmasTextSize
             font.family: fontPoppins.name
         }
 
         PlasmaComponents.Label {
-            id: orthodoxChristmasText
+            id: julianChristmasText
 
             Layout.alignment: Text.AlignHCenter
-            visible: plasmoid.configuration.showOrthodoxChristmasText
-            text: Calc.formatTimeToOrthodoxChristmas()
-            font.pointSize: plasmoid.configuration.orthodoxChristmasTextSize
+            visible: plasmoid.configuration.showJulianChristmasText
+            text: Calc.formatTimeToJulianChristmas()
+            font.pointSize: plasmoid.configuration.julianChristmasTextSize
             font.family: fontPoppins.name
         }
         Timer {
@@ -51,8 +51,8 @@ Item {
             repeat: true
             onTriggered: {
                 newYearText.text = Calc.formatTimeToNewYear();
-                catolicChristmasText.text = Calc.formatTimeToCatolicChristmas();
-                orthodoxChristmasText.text = Calc.formatTimeToOrthodoxChristmas();
+                gregorianChristmasText.text = Calc.formatTimeToGregorianChristmas();
+                julianChristmasText.text = Calc.formatTimeToJulianChristmas();
             }
         }
     }

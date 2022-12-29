@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: days-to-new-year\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 22:11+0300\n"
+"POT-Creation-Date: 2022-12-29 18:32+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,11 +54,19 @@ msgid "New Year"
 msgstr ""
 
 #: ../contents/ui/calc.js
-msgid "Catolic Christmas"
+msgid "Happy New Year!"
 msgstr ""
 
 #: ../contents/ui/calc.js
-msgid "Orthodox Christmas"
+msgid "Gregorian Christmas"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "Merry Christmas!"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "Julian Christmas"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
@@ -75,17 +83,17 @@ msgid " pt"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Catolic Christmas:"
+msgid "Show text about Gregorian Christmas:"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Catolic Christmas font size:"
+msgid "Gregorian Christmas font size:"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Orthodox Christmas:"
+msgid "Show text about Julian Christmas:"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Orthodox Christmas font size:"
+msgid "Julian Christmas font size:"
 msgstr ""

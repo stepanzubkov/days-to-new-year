@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: days-to-new-year\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 22:11+0300\n"
+"POT-Creation-Date: 2022-12-29 18:32+0300\n"
 "PO-Revision-Date: 2022-12-07 20:33+0100\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch\n"
@@ -54,12 +54,20 @@ msgid "New Year"
 msgstr "Nieuwjaar"
 
 #: ../contents/ui/calc.js
-msgid "Catolic Christmas"
-msgstr "Eerste kerstdag"
+msgid "Happy New Year!"
+msgstr ""
 
 #: ../contents/ui/calc.js
-msgid "Orthodox Christmas"
-msgstr "Orthodox kerstfeest"
+msgid "Gregorian Christmas"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "Merry Christmas!"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "Julian Christmas"
+msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Show text about New Year:"
@@ -75,17 +83,35 @@ msgid " pt"
 msgstr " pt"
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Catolic Christmas:"
-msgstr "Eerste kerstdag tonen:"
+msgid "Show text about Gregorian Christmas:"
+msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Catolic Christmas font size:"
+msgid "Gregorian Christmas font size:"
 msgstr "Tekstgrootte:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Orthodox Christmas:"
-msgstr "Orthodox kerstfeest tonen:"
+msgid "Show text about Julian Christmas:"
+msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Orthodox Christmas font size:"
+msgid "Julian Christmas font size:"
 msgstr "Tekstgrootte:"
+
+#~ msgid "Catolic Christmas"
+#~ msgstr "Eerste kerstdag"
+
+#~ msgid "Orthodox Christmas"
+#~ msgstr "Orthodox kerstfeest"
+
+#~ msgid "Show text about Catolic Christmas:"
+#~ msgstr "Eerste kerstdag tonen:"
+
+#~ msgid "Catolic Christmas font size:"
+#~ msgstr "Tekstgrootte:"
+
+#~ msgid "Show text about Orthodox Christmas:"
+#~ msgstr "Orthodox kerstfeest tonen:"
+
+#~ msgid "Orthodox Christmas font size:"
+#~ msgstr "Tekstgrootte:"

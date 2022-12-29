@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: days-to-new-year\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 22:11+0300\n"
+"POT-Creation-Date: 2022-12-29 18:32+0300\n"
 "PO-Revision-Date: 2022-12-08 12:27+0300\n"
 "Last-Translator: stepan <zubkovbackend@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -59,12 +59,20 @@ msgid "New Year"
 msgstr "Нового Года"
 
 #: ../contents/ui/calc.js
-msgid "Catolic Christmas"
-msgstr "Католического Рождества"
+msgid "Happy New Year!"
+msgstr ""
 
 #: ../contents/ui/calc.js
-msgid "Orthodox Christmas"
-msgstr "Православного рождества"
+msgid "Gregorian Christmas"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "Merry Christmas!"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "Julian Christmas"
+msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Show text about New Year:"
@@ -80,17 +88,35 @@ msgid " pt"
 msgstr " pt"
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Catolic Christmas:"
-msgstr "Текст про Кат. Рождество:"
+msgid "Show text about Gregorian Christmas:"
+msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Catolic Christmas font size:"
-msgstr "Размер текста:"
+msgid "Gregorian Christmas font size:"
+msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Show text about Orthodox Christmas:"
-msgstr "Текст про Прав. Рождество:"
+msgid "Show text about Julian Christmas:"
+msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Orthodox Christmas font size:"
-msgstr "Размер текста:"
+msgid "Julian Christmas font size:"
+msgstr ""
+
+#~ msgid "Catolic Christmas"
+#~ msgstr "Католического Рождества"
+
+#~ msgid "Orthodox Christmas"
+#~ msgstr "Православного рождества"
+
+#~ msgid "Show text about Catolic Christmas:"
+#~ msgstr "Текст про Кат. Рождество:"
+
+#~ msgid "Catolic Christmas font size:"
+#~ msgstr "Размер текста:"
+
+#~ msgid "Show text about Orthodox Christmas:"
+#~ msgstr "Текст про Прав. Рождество:"
+
+#~ msgid "Orthodox Christmas font size:"
+#~ msgstr "Размер текста:"

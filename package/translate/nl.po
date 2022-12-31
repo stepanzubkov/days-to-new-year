@@ -82,11 +82,11 @@ msgstr " pt"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Gregorian Christmas:"
-msgstr "Gregoriaanse kerst:"
+msgstr "Gregoriaans kerstfeest:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Julian Christmas:"
-msgstr "Juliaanse kerst:"
+msgstr "Juliaans kerstfeest:"
 
 #~ msgid "New Year"
 #~ msgstr "Nieuwjaar"

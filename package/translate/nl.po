@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: days-to-new-year\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-31 12:24+0300\n"
-"PO-Revision-Date: 2022-12-07 20:33+0100\n"
+"PO-Revision-Date: 2022-12-31 12:45+0100\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch\n"
 "Language: nl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 22.11.90\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ../metadata.desktop
 msgid "Days to new year"
@@ -56,16 +56,16 @@ msgstr "Nieuwjaar:"
 
 #: ../contents/ui/calc.js
 msgid "Happy New Year!"
-msgstr ""
+msgstr "Gelukkig nieuwjaar!"
 
 #: ../contents/ui/calc.js
 msgctxt "in form `until Christmas`"
 msgid "Christmas"
-msgstr ""
+msgstr "Kerstmis:"
 
 #: ../contents/ui/calc.js
 msgid "Merry Christmas!"
-msgstr ""
+msgstr "Vrolijk kerstfeest!"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "New Year:"
@@ -82,11 +82,11 @@ msgstr " pt"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Gregorian Christmas:"
-msgstr ""
+msgstr "Gregoriaanse kerst:"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Julian Christmas:"
-msgstr ""
+msgstr "Juliaanse kerst:"
 
 #~ msgid "New Year"
 #~ msgstr "Nieuwjaar"

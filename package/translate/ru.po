@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: days-to-new-year\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-29 18:57+0300\n"
+"POT-Creation-Date: 2022-12-31 12:24+0300\n"
 "PO-Revision-Date: 2022-12-08 12:27+0300\n"
 "Last-Translator: stepan <zubkovbackend@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -64,18 +64,13 @@ msgid "Happy New Year!"
 msgstr "Счастливого Нового Года!"
 
 #: ../contents/ui/calc.js
-msgctxt "in form `until Gregorian Christmas`"
-msgid "Gregorian Christmas"
-msgstr "Григорианского рождества"
+msgctxt "in form `until Christmas`"
+msgid "Christmas"
+msgstr "Рождества"
 
 #: ../contents/ui/calc.js
 msgid "Merry Christmas!"
 msgstr "Счастливого Рождества!"
-
-#: ../contents/ui/calc.js
-msgctxt "in form `until Julian Christmas`"
-msgid "Julian Christmas"
-msgstr "Юлианского Рождества"
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "New Year:"
@@ -97,6 +92,14 @@ msgstr "Григорианское Рождество:"
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Julian Christmas:"
 msgstr "Юлианское Рождество:"
+
+#~ msgctxt "in form `until Gregorian Christmas`"
+#~ msgid "Gregorian Christmas"
+#~ msgstr "Григорианского рождества"
+
+#~ msgctxt "in form `until Julian Christmas`"
+#~ msgid "Julian Christmas"
+#~ msgstr "Юлианского Рождества"
 
 #~ msgid "New Year"
 #~ msgstr "Нового Года"

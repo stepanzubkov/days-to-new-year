@@ -34,7 +34,7 @@ function formatTimeToGregorianChristmas() {
     var christmas = new Date(now.getFullYear(), 11, 24, 23, 59, 59);
     if (christmas < now)
         christmas.setFullYear(now.getFullYear()+1)
-    return _formatTimeBetweenDates(christmas, now, i18nc("in form `until Gregorian Christmas`", "Gregorian Christmas"), i18n("Merry Christmas!"));
+    return _formatTimeBetweenDates(christmas, now, i18nc("in form `until Christmas`", "Christmas"), i18n("Merry Christmas!"));
 }
 
 function formatTimeToJulianChristmas() {
@@ -42,5 +42,5 @@ function formatTimeToJulianChristmas() {
     var christmas = new Date(now.getFullYear(), 0, 6, 23, 59, 59);
     if (christmas < now)
         christmas.setFullYear(now.getFullYear()+1)
-    return _formatTimeBetweenDates(christmas, now, i18nc("in form `until Julian Christmas`", "Julian Christmas"), i18n("Merry Christmas!"));
+    return _formatTimeBetweenDates(christmas, now, i18nc("in form `until Christmas`", "Christmas"), i18n("Merry Christmas!"));
 }

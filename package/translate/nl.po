@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: days-to-new-year\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-29 18:57+0300\n"
+"POT-Creation-Date: 2022-12-31 12:24+0300\n"
 "PO-Revision-Date: 2022-12-07 20:33+0100\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch\n"
@@ -59,17 +59,12 @@ msgid "Happy New Year!"
 msgstr ""
 
 #: ../contents/ui/calc.js
-msgctxt "in form `until Gregorian Christmas`"
-msgid "Gregorian Christmas"
+msgctxt "in form `until Christmas`"
+msgid "Christmas"
 msgstr ""
 
 #: ../contents/ui/calc.js
 msgid "Merry Christmas!"
-msgstr ""
-
-#: ../contents/ui/calc.js
-msgctxt "in form `until Julian Christmas`"
-msgid "Julian Christmas"
 msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml

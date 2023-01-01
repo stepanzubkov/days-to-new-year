@@ -11,12 +11,12 @@ function _formatTimeBetweenDates(firstDate, secondDate, eventName, eventCongratu
     var hours = Math.floor(seconds / 3600);
 
     var formattedString = "";
-    if (days > 0) {
+     if (days == 0 && hours == 0) {
+        return eventCongratulationName;
+    } if (days > 0) {
         formattedString += i18ncp("Days until event", "one day", "%1 days", days) + " ";
     } if (hours > 0) {
         formattedString += i18ncp("Hours until event", "one hour", "%1 hours", hours) + " ";
-    } if (days == 0 && hours == 0) {
-        formattedString += eventCongratulationName;
     }
     formattedString += i18nc("%1 - Event (New Year, Christmas)", "until %1", eventName);
    

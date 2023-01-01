@@ -5,11 +5,11 @@
 Widget shows time until:
 
 1. New Year
-2. Catolic/Orthodox сhristmas
+2. Gregorian/Julian сhristmas
 
-![Screenshot_20221203_185245](https://user-images.githubusercontent.com/83695097/205449752-13006699-53ee-4391-881c-5721103f87ad.png)
+![Screenshot_20221231_150402](https://user-images.githubusercontent.com/83695097/210136137-2300b884-bdb3-4978-adf2-5548290acc89.png)
 
-![Screenshot_20221206_203223](https://user-images.githubusercontent.com/83695097/205981694-cdb2ad8d-687f-4d84-8715-31fb5ab422b8.png)
+![Screenshot_20221231_150521](https://user-images.githubusercontent.com/83695097/210136146-d21d2753-52ca-46cb-9022-95e3f788a071.png)
 
 
 Now only full representation exists.

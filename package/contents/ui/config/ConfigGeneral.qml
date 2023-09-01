@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import QtQuick.Controls 1.3
+import QtQuick.Controls 2.15
 import QtQuick.Layouts 1.1
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.kirigami 2.9 as Kirigami
@@ -29,10 +29,12 @@ Item {
             Kirigami.FormData.label: i18n("Font size:")
             enabled: showNewYearText.checked
             value: 16
-            minimumValue: 10
-            maximumValue: 72
+            from: 10
+            to: 72
             stepSize: 1
-            suffix: i18nc("Font size (points)", " pt")
+            textFromValue: function(value) {
+                return value + i18nc("Font size (points)", " pt");
+            }
 
         }
         CheckBox {
@@ -47,10 +49,12 @@ Item {
             Kirigami.FormData.label: i18n("Font size:")
             enabled: showGregorianChristmasText.checked
             value: 16
-            minimumValue: 10
-            maximumValue: 72
+            from: 10
+            to: 72
             stepSize: 1
-            suffix: i18nc("Font size (points)", " pt")
+            textFromValue: function(value) {
+                return value + i18nc("Font size (points)", " pt");
+            }
         }
         CheckBox {
             id: showJulianChristmasText
@@ -64,10 +68,12 @@ Item {
             Kirigami.FormData.label: i18n("Font size:")
             enabled: showJulianChristmasText.checked
             value: 16
-            minimumValue: 10
-            maximumValue: 72
+            from: 10
+            to: 72
             stepSize: 1
-            suffix: i18nc("Font size (points)", " pt")
+            textFromValue: function(value) {
+                return value + i18nc("Font size (points)", " pt");
+            }
         }
 
     }

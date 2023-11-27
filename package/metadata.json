@@ -1,0 +1,29 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zubkovbackend@gmail.com",
+                "Name": "Stepan Zubkov"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "shows how much time is left until new year/christmas",
+        "Description[nl]": "Toont het aantal dagen en uren tot Nieuwjaar en Kerstmis",
+        "Description[ru]": "Показывает, сколько времени осталось до Нового Года/Рождества",
+        "Icon": "applications-system",
+        "Id": "com.github.stepan-zubkov.days-to-new-year",
+        "License": "MIT",
+        "Name": "Days to new year",
+        "Name[nl]": "Aftellen naar Nieuwjaar",
+        "Name[ru]": "Дни до нового года",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "2.0.0",
+        "Website": "https://github.com/stepanzubkov/days-to-new-year"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-RemoteLocation": ""
+}

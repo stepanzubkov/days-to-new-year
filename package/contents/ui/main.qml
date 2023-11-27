@@ -1,12 +1,12 @@
-import QtQuick 2.1
-import QtQuick.Layouts 1.1
-import org.kde.plasma.core 2.0 as PlasmaCore
-import org.kde.plasma.plasmoid 2.0
-import org.kde.plasma.components 2.0 as PlasmaComponents
+import QtQuick
+import QtQuick.Layouts
+import org.kde.plasma.core as PlasmaCore
+import org.kde.plasma.plasmoid
+import org.kde.plasma.components as PlasmaComponents
 
 import "calc.js" as Calc
 
-Item {
+PlasmoidItem {
 
     Plasmoid.backgroundHints: PlasmaCore.Types.ShadowBackground | PlasmaCore.Types.ConfigurableBackground
 
@@ -15,7 +15,7 @@ Item {
         source: "../fonts/Poppins.ttf"
     }
 
-    Plasmoid.fullRepresentation: ColumnLayout {
+    fullRepresentation: ColumnLayout {
         anchors.fill: parent
         PlasmaComponents.Label {
             id: newYearText
@@ -57,7 +57,5 @@ Item {
         }
     }
 
-    Plasmoid.preferredRepresentation: Plasmoid.fullRepresentation
-
-
+    preferredRepresentation: Plasmoid.fullRepresentation
 }

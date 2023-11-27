@@ -1,5 +1,7 @@
 # Days to new year plasmoid
 
+**NOTE**: This branch contains widget for *Plasma 6* with 2.x.x version.
+
 ## Overview
 
 Widget shows time until:

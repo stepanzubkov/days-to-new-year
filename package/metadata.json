@@ -19,7 +19,7 @@
         "ServiceTypes": [
             "Plasma/Applet"
         ],
-        "Version": "2.0.0",
+        "Version": "2.0.1",
         "Website": "https://github.com/stepanzubkov/days-to-new-year"
     },
     "X-KDE-ParentApp": "",

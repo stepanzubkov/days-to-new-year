@@ -25,5 +25,6 @@
     "X-KDE-ParentApp": "",
     "X-Plasma-API": "declarativeappletscript",
     "X-Plasma-MainScript": "ui/main.qml",
-    "X-Plasma-RemoteLocation": ""
+    "X-Plasma-RemoteLocation": "",
+    "X-Plasma-API-Minimum-Version": "6.0"
 }

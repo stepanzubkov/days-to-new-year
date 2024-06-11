@@ -6,30 +6,16 @@
   <kcfgfile name=""/>
     
   <group name="General">
-    <entry name="showNewYearText" type="Bool">
-      <label>Flag to show text about new year</label>
-      <default>true</default>
-    </entry>
-    <entry name="newYearTextSize" type="Int">
-      <label>New year text size in puncts (pt)</label>
-      <default>16</default>
-    </entry>
-    <entry name="showGregorianChristmasText" type="Bool">
-      <label>Flag to show text about gregorian christmas</label>
+    <entry name="shortened" type="Bool">
+      <label>Shorten info</label>
       <default>false</default>
     </entry>
-    <entry name="gregorianChristmasTextSize" type="Int">
-      <label>Gregorian christmas text size in puncts (pt)</label>
+    <entry name="textSize" type="Int">
+      <label>Text size (pt)</label>
       <default>16</default>
     </entry>
-    <entry name="showJulianChristmasText" type="Bool">
-      <label>Flag to show text about julian christmas</label>
-      <default>false</default>
+    <entry name="calendarMode" type="Int">
+      <default>0</default>
     </entry>
-    <entry name="julianChristmasTextSize" type="Int">
-      <label>Julian christmas text size in puncts (pt)</label>
-      <default>16</default>
-    </entry>
-
   </group>
 </kcfg>

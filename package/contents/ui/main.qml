@@ -16,43 +16,48 @@ PlasmoidItem {
     }
 
     fullRepresentation: ColumnLayout {
+        id: mainItem
+
+        readonly property int calendarMode: plasmoid.configuration.calendarMode
+        readonly property int textSize: plasmoid.configuration.textSize
+        readonly property bool shortened: plasmoid.configuration.shortened || false
+
+        function displayTime () {
+            var selectedModeTime
+            switch (mainItem.calendarMode) {
+                case 0:
+                    selectedModeTime = Calc.formatTimeToNewYear(shortened)
+                    break;
+                case 1:
+                    selectedModeTime = Calc.formatTimeFromNewYear(shortened)
+                    break;
+                case 2:
+                    selectedModeTime = Calc.formatTimeToJulianChristmas(shortened)
+                    break;
+                case 3:
+                    selectedModeTime = Calc.formatTimeToGregorianChristmas(shortened)
+                    break;
+            }
+            return selectedModeTime
+        }
+
         anchors.fill: parent
+
         PlasmaComponents.Label {
-            id: newYearText
+            id: mainText
 
             Layout.alignment: Text.AlignHCenter
-            visible: plasmoid.configuration.showNewYearText
-            text: Calc.formatTimeToNewYear()
-            font.pointSize: plasmoid.configuration.newYearTextSize
-            font.family: fontPoppins.name
-        }
-        PlasmaComponents.Label {
-            id: gregorianChristmasText
-
-            Layout.alignment: Text.AlignHCenter
-            visible: plasmoid.configuration.showGregorianChristmasText
-            text: Calc.formatTimeToGregorianChristmas()
-            font.pointSize: plasmoid.configuration.gregorianChristmasTextSize
+            text: displayTime()
+            font.pointSize: mainItem.textSize
             font.family: fontPoppins.name
         }
 
-        PlasmaComponents.Label {
-            id: julianChristmasText
-
-            Layout.alignment: Text.AlignHCenter
-            visible: plasmoid.configuration.showJulianChristmasText
-            text: Calc.formatTimeToJulianChristmas()
-            font.pointSize: plasmoid.configuration.julianChristmasTextSize
-            font.family: fontPoppins.name
-        }
         Timer {
             interval: 60000
             running: true
             repeat: true
             onTriggered: {
-                newYearText.text = Calc.formatTimeToNewYear();
-                gregorianChristmasText.text = Calc.formatTimeToGregorianChristmas();
-                julianChristmasText.text = Calc.formatTimeToJulianChristmas();
+                mainText.text = displayTime()
             }
         }
     }

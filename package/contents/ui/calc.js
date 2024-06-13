@@ -1,9 +1,9 @@
-function _getSecondsBeetweenDates(firstDate, secondDate) {
+function _getSecondsBetweenDates(firstDate, secondDate) {
     return Math.abs(firstDate.getTime() - secondDate.getTime()) / 1000;
 }
 
-function _formatTimeBetweenDates(firstDate, secondDate, eventName, eventCongratulationName) {
-    var seconds = _getSecondsBeetweenDates(firstDate, secondDate);
+function _formatTimeBetweenDates(firstDate, secondDate, eventName, eventCongratulationName, shortened) {
+    var seconds = _getSecondsBetweenDates(firstDate, secondDate);
 
     var days = Math.floor(seconds / (24 * 3600));
     seconds -= days * 24 * 3600;
@@ -15,32 +15,38 @@ function _formatTimeBetweenDates(firstDate, secondDate, eventName, eventCongratu
         return eventCongratulationName;
     } if (days > 0) {
         formattedString += i18ncp("Days until event", "one day", "%1 days", days) + " ";
-    } if (hours > 0) {
+    } if (hours > 0 && !shortened) {
         formattedString += i18ncp("Hours until event", "one hour", "%1 hours", hours) + " ";
     }
-    formattedString += i18nc("%1 - Event (New Year, Christmas)", "until %1", eventName);
+    formattedString += i18nc("%1 - Event (New Year, Christmas)", "%1", eventName);
    
     return formattedString;
 }
 
-function formatTimeToNewYear() {
+function formatTimeToNewYear(shortened) {
     var now = new Date();
     var new_year = new Date(now.getFullYear(), 11, 31, 23, 59, 59);
-    return _formatTimeBetweenDates(new_year, now, i18nc("in form `until New Year`", "New Year"), i18n("Happy New Year!"));
+    return _formatTimeBetweenDates(new_year, now, i18nc("in form `until New Year`", "until New Year"), i18n("Happy New Year!"), shortened);
 }
 
-function formatTimeToGregorianChristmas() {
+function formatTimeToGregorianChristmas(shortened) {
     var now = new Date();
     var christmas = new Date(now.getFullYear(), 11, 24, 23, 59, 59);
     if (christmas < now)
         christmas.setFullYear(now.getFullYear()+1)
-    return _formatTimeBetweenDates(christmas, now, i18nc("in form `until Christmas`", "Christmas"), i18n("Merry Christmas!"));
+    return _formatTimeBetweenDates(christmas, now, i18nc("in form `until Christmas`", "until Christmas"), i18n("Merry Christmas!"), shortened);
 }
 
-function formatTimeToJulianChristmas() {
+function formatTimeToJulianChristmas(shortened) {
     var now = new Date();
     var christmas = new Date(now.getFullYear(), 0, 6, 23, 59, 59);
     if (christmas < now)
         christmas.setFullYear(now.getFullYear()+1)
-    return _formatTimeBetweenDates(christmas, now, i18nc("in form `until Christmas`", "Christmas"), i18n("Merry Christmas!"));
+    return _formatTimeBetweenDates(christmas, now, i18nc("in form `until Christmas`", "until Christmas"), i18n("Merry Christmas!"), shortened);
+}
+
+function formatTimeFromNewYear(shortened) {
+    var now = new Date();
+    var new_year = new Date(now.getFullYear(), 0, 0)
+    return _formatTimeBetweenDates(now, new_year, i18nc("in form `since New Year`", "since New Year"), i18n("A New Year starts again!"), shortened);
 }

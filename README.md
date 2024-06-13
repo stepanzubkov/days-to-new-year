@@ -1,6 +1,6 @@
 # Days to new year plasmoid
 
-**NOTE**: This branch contains plasmoid for Plasma 5 with version 1.x.x (last stable version 1.1.5). Plasmoid for Plasma 6 represented in `plasma6` branch of this repo and it has 2.x.x version. This version (1.x.x) will be maintained until I get lazy :)
+**NOTE**: This branch contains plasmoid for Plasma 5 with version 1.x.x (last stable version 1.1.5). Plasmoid for Plasma 6 represented in `plasma6` branch of this repo and it has 2.x.x version. Plasma 5 version is not maintained now.
 
 ## Overview
 

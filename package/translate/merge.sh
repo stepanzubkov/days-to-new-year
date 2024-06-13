@@ -6,7 +6,7 @@
 # https://invent.kde.org/sysadmin/l10n-scripty/-/blob/master/extract-messages.sh
 
 DIR=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
-plasmoidName="Days to new year"
+plasmoidName="com.github.stepan-zubkov.days-to-new-year"
 widgetName="${plasmoidName##*.}" # Strip namespace
 website="https://github.com/stepanzubkov/days-to-new-year"
 bugAddress="$website"

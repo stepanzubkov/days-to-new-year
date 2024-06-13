@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: days-to-new-year\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-31 12:24+0300\n"
+"Report-Msgid-Bugs-To: https://github.com/stepanzubkov/days-to-new-year\n"
+"POT-Creation-Date: 2024-06-13 13:42+0300\n"
 "PO-Revision-Date: 2022-12-08 12:27+0300\n"
 "Last-Translator: stepan <zubkovbackend@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -18,14 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : "
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Lokalize 22.08.3\n"
-
-#: ../metadata.desktop
-msgid "Days to new year"
-msgstr "Дни до нового года"
-
-#: ../metadata.desktop
-msgid "shows how much time is left until new year/christmas"
-msgstr "Показывает, сколько времени осталось до Нового Года/Рождества"
 
 #: ../contents/config/config.qml
 msgid "General"
@@ -51,13 +43,13 @@ msgstr[3] "один час"
 
 #: ../contents/ui/calc.js
 msgctxt "%1 - Event (New Year, Christmas)"
-msgid "until %1"
-msgstr "до %1"
+msgid "%1"
+msgstr ""
 
 #: ../contents/ui/calc.js
 msgctxt "in form `until New Year`"
-msgid "New Year"
-msgstr "Нового года"
+msgid "until New Year"
+msgstr ""
 
 #: ../contents/ui/calc.js
 msgid "Happy New Year!"
@@ -65,16 +57,41 @@ msgstr "Счастливого Нового Года!"
 
 #: ../contents/ui/calc.js
 msgctxt "in form `until Christmas`"
-msgid "Christmas"
-msgstr "Рождества"
+msgid "until Christmas"
+msgstr ""
 
 #: ../contents/ui/calc.js
 msgid "Merry Christmas!"
 msgstr "Счастливого Рождества!"
 
+#: ../contents/ui/calc.js
+msgctxt "in form `since New Year`"
+msgid "since New Year"
+msgstr ""
+
+#: ../contents/ui/calc.js
+msgid "A New Year starts again!"
+msgstr ""
+
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "New Year:"
-msgstr "Новый год:"
+msgid "Mode:"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Time To New Year"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Time From New Year"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Time To Gregorian Christmas"
+msgstr ""
+
+#: ../contents/ui/config/ConfigGeneral.qml
+msgid "Time To Julian Christmas"
+msgstr ""
 
 #: ../contents/ui/config/ConfigGeneral.qml
 msgid "Font size:"
@@ -86,12 +103,35 @@ msgid " pt"
 msgstr " pt"
 
 #: ../contents/ui/config/ConfigGeneral.qml
-msgid "Gregorian Christmas:"
-msgstr "Григорианское Рождество:"
+msgid "Shortened:"
+msgstr ""
 
-#: ../contents/ui/config/ConfigGeneral.qml
-msgid "Julian Christmas:"
-msgstr "Юлианское Рождество:"
+#~ msgid "Days to new year"
+#~ msgstr "Дни до нового года"
+
+#~ msgid "shows how much time is left until new year/christmas"
+#~ msgstr "Показывает, сколько времени осталось до Нового Года/Рождества"
+
+#~ msgctxt "%1 - Event (New Year, Christmas)"
+#~ msgid "until %1"
+#~ msgstr "до %1"
+
+#~ msgctxt "in form `until New Year`"
+#~ msgid "New Year"
+#~ msgstr "Нового года"
+
+#~ msgctxt "in form `until Christmas`"
+#~ msgid "Christmas"
+#~ msgstr "Рождества"
+
+#~ msgid "New Year:"
+#~ msgstr "Новый год:"
+
+#~ msgid "Gregorian Christmas:"
+#~ msgstr "Григорианское Рождество:"
+
+#~ msgid "Julian Christmas:"
+#~ msgstr "Юлианское Рождество:"
 
 #~ msgctxt "in form `until Gregorian Christmas`"
 #~ msgid "Gregorian Christmas"
